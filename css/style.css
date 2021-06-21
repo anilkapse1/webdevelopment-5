@@ -1,113 +1,111 @@
 /*reset style start*/
 /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs*/
-body{
-  margin:0;
-  padding:0;
-  font-family: 'Roboto', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
-ul{
+ul {
   margin: 0;
 }
 /*reset style end*/
 
 /*base style start*/
-body{
+body {
   font-size: 100%;
 }
 /*base style end*/
 
 /*header start*/
-.topcontainer{
+.topcontainer {
   padding-left: 0;
   padding-right: 0;
 }
-.customnav{
+.customnav {
   padding: 0 1rem;
   background-color: #000;
-  opacity: .8;
+  opacity: 0.8;
   /*position:fixed;
   top:0;
   width: inherit;
   max-width: inherit;*/
   z-index: 1;
 }
-.customnav .navbar-brand{
+.customnav .navbar-brand {
   margin-right: 0;
 }
 
-.navbar-dark .navbar-nav .nav-link{
-  color:#fff;
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
 }
-.navbar-dark .navbar-nav .nav-link:hover{
-  color:#fff;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
 }
-.customnav li.nav-item:hover{
+.customnav li.nav-item:hover {
   background: grey;
 }
-.customnav a.nav-link{
+.customnav a.nav-link {
   padding-left: 20px;
 }
 /*header end*/
 
-
 /*heroimage start*/
-.heroimage{
+.heroimage {
   padding-right: 0;
   padding-left: 0;
   position: relative;
   width: 100%;
   height: 95vh;
   max-height: 780px;
-  background-image: url('../images/Layer 163.png');
+  background-image: url("../images/Layer 163.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.heroimage img{
+.heroimage img {
   width: 100%;
 }
-.heroimagecontent{
+.heroimagecontent {
   position: absolute;
   bottom: 20px;
-  color:#fff;
+  color: #fff;
   text-shadow: 2px 1px 3px #000;
 }
 
-.heroimagecontent p:nth-child(1){
+.heroimagecontent p:nth-child(1) {
   font-size: 32px;
   width: 230px;
 }
-.heroimagecontent p:nth-child(2){
+.heroimagecontent p:nth-child(2) {
   font-size: 16px;
   width: 230px;
 }
 
 .heroimage .logo {
   position: absolute;
-      right: 5%;
-      bottom: 20px;
-      /*padding: 20px;
+  right: 5%;
+  bottom: 20px;
+  /*padding: 20px;
       opacity: 1;
       transition: all 0.4s ease-in-out 0s;*/
 }
-.heroimage .logo .fa{
-    color: white;
-    font-size: 39px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 50%;
-    border: 2px solid white;
-    padding-top: 4px;
-  }
+.heroimage .logo .fa {
+  color: white;
+  font-size: 39px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding-top: 4px;
+}
 /*heroimage end*/
-
 
 /*ux strategy start*/
 
-.uxstrategy .container{
+.uxstrategy .container {
   background: #fff;
 }
-.uxstrategy .sectionleft{
+.uxstrategy .sectionleft {
   background-color: #f4f4f4;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -115,558 +113,553 @@ body{
   padding-right: 0;
 }
 
-.uxstrategy .sectionleft .wrap{
+.uxstrategy .sectionleft .wrap {
   padding-left: 10px;
 }
 
-
-.uxstrategy .sectionright{
+.uxstrategy .sectionright {
   padding-top: 70px;
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
-.uxstrategy .sectionleft > h4{
-    font-size: 36px;
-    color: #c79041;
-    padding-left: 25px;
+.uxstrategy .sectionleft > h4 {
+  font-size: 36px;
+  color: #c79041;
+  padding-left: 25px;
 }
-.uxstrategy .sectionleft > p{
-    font-size: 16px;
-    padding-left: 25px;
+.uxstrategy .sectionleft > p {
+  font-size: 16px;
+  padding-left: 25px;
 }
 .uxstrategy button {
-    display: block;
-    background-color: inherit;
-    color: black;
-    /*padding: 22px 16px;*/
-    width: 100%;
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 26px;
-    position: relative;
+  display: block;
+  background-color: inherit;
+  color: black;
+  /*padding: 22px 16px;*/
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 26px;
+  position: relative;
 }
 
-.uxstrategy button:hover{
+.uxstrategy button:hover {
   background-color: #fff;
-  background-image: url('../images/arrowright.png');
+  background-image: url("../images/arrowright.png");
   background-repeat: no-repeat;
-  background-position: center right 20px ;
+  background-position: center right 20px;
 }
 
-
-.uxstrategy button div{
+.uxstrategy button div {
   display: inline-block;
 }
-.uxstrategy button img{
+.uxstrategy button img {
   vertical-align: baseline;
 }
-.uxstrategy button p{
+.uxstrategy button p {
   font-size: 12px;
-  color:#b8b8b8;
+  color: #b8b8b8;
   font-weight: bold;
 }
 
-.uxstrategy .sectionright h4{
+.uxstrategy .sectionright h4 {
   color: #000;
-  font-size:24px;
+  font-size: 24px;
   font-weight: normal;
 }
-.uxstrategy .card{
+.uxstrategy .card {
   display: inline-block;
   border: 0;
   text-align: center;
   padding-top: 50px;
 }
 
-.uxstrategy .card img{
+.uxstrategy .card img {
   width: 25%;
 }
-.uxstrategy .card h5{
+.uxstrategy .card h5 {
   font-size: 26px;
   font-weight: bold;
 }
 
-.uxstrategy .card p{
+.uxstrategy .card p {
   font-size: 16px;
 }
 
-.sectionright .centerimage
-{
- display: none;
+.sectionright .centerimage {
+  display: none;
 }
 
 /*ux strategy end*/
 
 /*team members start*/
-.teammembers{
-  background-image: url('../images/teammembersbg.jpg');
+.teammembers {
+  background-image: url("../images/teammembersbg.jpg");
   height: auto;
   /*padding-bottom: 70px;*/
   padding-bottom: 48px;
   background-repeat: no-repeat;
-      background-size: cover;
+  background-size: cover;
 }
-.teammembers .tophead{
+.teammembers .tophead {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.teammembers .title1{
-  color:#c79041;
+.teammembers .title1 {
+  color: #c79041;
   font-size: 36px;
   font-weight: bold;
 }
-.teammembers .title2{
-  color:#fff;
+.teammembers .title2 {
+  color: #fff;
   font-size: 16px;
 }
-.teammembers .card{
+.teammembers .card {
   background: transparent;
-  border:0;
+  border: 0;
   position: relative;
 }
-.teammembers .myslider img{
+.teammembers .myslider img {
   margin: auto;
-  opacity: .5;
+  opacity: 0.5;
   width: 90%;
   /*height: 245px;*/
   height: 350px;
   /*we can increse size of image for larger images*/
 }
 
-.teammembers .myslider .slick-current img{
+.teammembers .myslider .slick-current img {
   /*width: 100%;*/
 }
-.opacity{
-  opacity: 1!important;
+.opacity {
+  opacity: 1 !important;
 }
-.teammembers .card-body{
+.teammembers .card-body {
   padding: 1.25rem 1rem 1.25rem 1.25rem;
 }
 
-.teammembers .overlay{
+.teammembers .overlay {
   background-color: #c79041;
   position: absolute;
   bottom: -40px;
-  left:5%;
+  left: 5%;
   overflow: hidden;
   height: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   width: 90%;
 }
 
-.hoveroverlay{
-  height: 90px!important;
-  bottom:0!important;
+.hoveroverlay {
+  height: 90px !important;
+  bottom: 0 !important;
 }
 
-.teammembers .card-title1, .teammembers .card-title2{
-  font-size:16px;
+.teammembers .card-title1,
+.teammembers .card-title2 {
+  font-size: 16px;
   color: white;
 }
-.teammembers .card-title2{
-  color:#e1b270;
+.teammembers .card-title2 {
+  color: #e1b270;
 }
-.teammembers .team-logo{
+.teammembers .team-logo {
   float: right;
 }
 
-.viewall{
+.viewall {
   text-align: right;
   padding-top: 10px;
 }
 
-.rightportfolio .viewall{
+.rightportfolio .viewall {
   padding-bottom: 20px;
   padding-top: 0;
 }
 
-.viewall a{
-  color:#c79041;
+.viewall a {
+  color: #c79041;
   text-decoration: none;
 }
 
-.viewall .fa{
+.viewall .fa {
   font-size: 19px;
 }
 
 /*teammembers end*/
 
 /*portfolio start*/
-.portfolio{
+.portfolio {
   /*padding-top: 50px;
   padding-bottom: 50px;*/
   background-color: #fff;
 }
-.portfolio .leftportfolio{
+.portfolio .leftportfolio {
   padding-top: 121px;
 }
-.portfolio .rightportfolio{
+.portfolio .rightportfolio {
   background-color: #f4f4f4;
   padding-top: 31px;
 }
-.portfolio h4{
+.portfolio h4 {
   color: #c79041;
   font-size: 36px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.portfolio .navbar{
+.portfolio .navbar {
   padding-bottom: 24px;
   padding-top: 5px;
 }
-.portfolio .navbar-nav{
+.portfolio .navbar-nav {
   margin: auto;
   display: -webkit-box;
 }
 
-.active{
+.active {
   border: 1px solid #c79041;
 }
 
-.inactive{
+.inactive {
   border: 1px solid grey;
 }
-.portfolio a.nav-link{
+.portfolio a.nav-link {
   text-align: center;
-  color:#000;
+  color: #000;
   margin-right: 20px;
   padding: 8px;
 }
 
-.portfolio .gallery .card{
+.portfolio .gallery .card {
   margin-bottom: 20px;
   background-color: #f4f4f4;
   max-height: 350px;
   min-height: 295px;
   border: 0;
 }
-.portfolio .gallery img{
+.portfolio .gallery img {
   height: 200px;
   border: 5px solid white;
 }
-.portfolio .gallery .card-body{
+.portfolio .gallery .card-body {
   padding: 1.25rem 1.25rem 1.25rem 0;
   text-align: center;
 }
-.portfolio .gallery .card-title{
+.portfolio .gallery .card-title {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   margin-bottom: 0;
   font-weight: normal;
 }
-.portfolio .gallery .card-text{
+.portfolio .gallery .card-text {
   font-size: 13px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #b8b8b8;
   font-weight: bold;
 }
-.portfolio #webdesign{
+.portfolio #webdesign {
   display: none;
 }
 /*portfolio end*/
 
 /*testimonial start*/
-.testimonial{
+.testimonial {
   background-color: #3e3e3e;
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.testimonial .container{
+.testimonial .container {
   padding-top: 70px;
 }
-.testimonial .row{
+.testimonial .row {
   display: table;
 }
-.testimonial i{
-  color:#c79041;
+.testimonial i {
+  color: #c79041;
 }
-.testimonial h1{
+.testimonial h1 {
   color: white;
   font-size: 36px;
   text-align: center;
 }
-.testimonial .testimonialleft{
+.testimonial .testimonialleft {
   display: inline-block;
   vertical-align: top;
 }
-.testimonial .testimonialright{
+.testimonial .testimonialright {
   padding-left: 80px;
   display: inline-block;
   position: relative;
 }
 
-.testimonial .testimonialright:before{
-  content: url('../images/leftquote.png');
+.testimonial .testimonialright:before {
+  content: url("../images/leftquote.png");
   position: relative;
   top: 5px;
   left: -20px;
 }
-.testimonial .testimonialright:after{
-content: url('../images/rightquote.png');
-position: absolute;
-    right: 100px;
-    bottom: 0;
+.testimonial .testimonialright:after {
+  content: url("../images/rightquote.png");
+  position: absolute;
+  right: 100px;
+  bottom: 0;
 }
 
-.testimonial .slick-prev:before, .slick-next:before{
+.testimonial .slick-prev:before,
+.slick-next:before {
   color: #b1b1b1;
 }
-.testimonial .testimonialleft .card{
+.testimonial .testimonialleft .card {
   border: 0;
   background-color: transparent;
 }
 
-.testimonial .testimonialleft .card img{
+.testimonial .testimonialleft .card img {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   margin: auto auto 21px auto;
 }
 
-.testimonial .testimonialleft .card-block{
-  color:#fff;
+.testimonial .testimonialleft .card-block {
+  color: #fff;
   text-align: center;
 }
 
-.testimonial .testimonialleft .card-block .card-title{
-    font-size: 24px;
-    font-weight: bold;
+.testimonial .testimonialleft .card-block .card-title {
+  font-size: 24px;
+  font-weight: bold;
 }
-.testimonial .testimonialleft .card-block .card-text{
+.testimonial .testimonialleft .card-block .card-text {
   font-size: 15px;
 }
-.testimonial .testimonialright p{
+.testimonial .testimonialright p {
   color: #fff;
   font-size: 16px;
 }
 
-.testimonial .test{
+.testimonial .test {
   width: 100%;
 }
-.testimonial .test .slick-list{
+.testimonial .test .slick-list {
   margin: auto;
 }
 .testimonialmove {
   color: #fff;
 }
 
-.testimonialmove li{
-   border-right: 1px solid white;
-   padding: 0 8px;
+.testimonialmove li {
+  border-right: 1px solid white;
+  padding: 0 8px;
 }
 
-.slick-active:focus{
-  outline: none!important;
+.slick-active:focus {
+  outline: none !important;
 }
-.sa{
-  color:#c79041;
+.sa {
+  color: #c79041;
 }
 /*testimonial end*/
 
 /*footer start*/
-.ftr{
+.ftr {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 14px;
 }
 
-.ftr a{
-    color:black;
+.ftr a {
+  color: black;
 }
-.ftr .nav-link{
-  padding: 0 .3rem;
+.ftr .nav-link {
+  padding: 0 0.3rem;
 }
 .ftr li.nav-item {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
 }
 .ftr li:last-child.nav-item {
-    border:0;
+  border: 0;
 }
 /*footer end*/
 
-
 /*teammembers page code start*/
-.team{
+.team {
   margin-top: 120px;
   margin-bottom: 70px;
 }
-.team-mem{
-      max-width: 285px;
-      max-height: 332px;
-      min-width: 70px;
-      min-height: 311px;
+.team-mem {
+  max-width: 285px;
+  max-height: 332px;
+  min-width: 70px;
+  min-height: 311px;
 }
 
-.team .row{
-      margin-bottom: 20px;
+.team .row {
+  margin-bottom: 20px;
 }
-.team .row h4{
+.team .row h4 {
   text-transform: uppercase;
-  color:#b98d52;
+  color: #b98d52;
 }
 
-.team .col-md-8{
+.team .col-md-8 {
   padding-top: 36px;
 }
 
-.team .fa{
+.team .fa {
   background-color: #b98d52;
-    color: white;
-    padding: 6px;
-    margin-right: 15px;
+  color: white;
+  padding: 6px;
+  margin-right: 15px;
 }
 
-#member1{
-  background-image: url('../images/team/m33.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#member2{
-  background-image: url('../images/team/m11.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#member3{
-  background-image: url('../images/team/m3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#member4{
-  background-image: url('../images/team/m55.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#member5{
-  background-image: url('../images/team/m5.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#member6{
-  background-image: url('../images/team/m66.jpg');
+#member1 {
+  background-image: url("../images/team/m33.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.odd{
+#member2 {
+  background-image: url("../images/team/m11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#member3 {
+  background-image: url("../images/team/m3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#member4 {
+  background-image: url("../images/team/m55.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#member5 {
+  background-image: url("../images/team/m5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#member6 {
+  background-image: url("../images/team/m66.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.odd {
   background-color: #ececec;
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.even{
+.even {
   background-color: #fff2e0;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 /*teammembers page code end*/
 /*---------------------------------------media query start-----------------------*/
-@media screen and (min-width: 768px){
-  .customnav{
-    position:fixed;
-    top:0;
+@media screen and (min-width: 768px) {
+  .customnav {
+    position: fixed;
+    top: 0;
     width: inherit;
     max-width: inherit;
   }
 
   .heroimage .logo {
     position: absolute;
-        left: 35%;
-        bottom: 20px;
+    left: 35%;
+    bottom: 20px;
   }
-  .topcontainer li.nav-item{
+  .topcontainer li.nav-item {
     padding: 15px 0;
   }
-  .customnav ul.navbar-nav{
+  .customnav ul.navbar-nav {
     margin-left: auto;
   }
-  .heroimagecontent{
-    bottom:70px;
+  .heroimagecontent {
+    bottom: 70px;
   }
-  .heroimagecontent p:nth-child(1){
+  .heroimagecontent p:nth-child(1) {
     font-size: 22px;
     width: 384px;
   }
-  .heroimagecontent p:nth-child(2){
+  .heroimagecontent p:nth-child(2) {
     font-size: 16px;
-
   }
 
-.sectionright .centerimage
-   {
+  .sectionright .centerimage {
     display: block;
     height: 15px;
     position: relative;
     top: 180px;
-   }
+  }
 
-   .ftr ul{
-     position: absolute;
-     right:0;
-   }
-
+  .ftr ul {
+    position: absolute;
+    right: 0;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width:992px){
-  .customnav{
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .customnav {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width:1023px){
-  .topcontainer{
+@media screen and (max-width: 1023px) {
+  .topcontainer {
     padding: 0;
     margin: 0;
     max-width: 100%;
   }
 }
-@media screen and (min-width:1024px){
-  .topcontainer{
+@media screen and (min-width: 1024px) {
+  .topcontainer {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .heroimagecontent{
-    bottom:70px;
+  .heroimagecontent {
+    bottom: 70px;
   }
-  .heroimagecontent p:nth-child(1){
+  .heroimagecontent p:nth-child(1) {
     font-size: 38px;
     line-height: 49px;
   }
-  .port{
+  .port {
     background-color: #fff;
-    background-image: url('../images/leftright11.jpg');
+    background-image: url("../images/leftright11.jpg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
   }
 
-  .uxstrategy{
+  .uxstrategy {
     background-color: #fff;
-    background-image: url('../images/leftright.png');
+    background-image: url("../images/leftright.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
   }
 }
 
-@media screen and (min-width:992px){
+@media screen and (min-width: 992px) {
   .testimonial .testimonialright {
     width: 55%;
     text-align: left;
   }
 
-  .testimonial .row{
+  .testimonial .row {
     text-align: center;
   }
-  .testimonial .testimonialleft{
+  .testimonial .testimonialleft {
     border-right: 1px solid white;
   }
 
-  .team .odd .col-md-4{
-      max-width: 28.333333%;
+  .team .odd .col-md-4 {
+    max-width: 28.333333%;
   }
 }
 
