@@ -14,29 +14,37 @@ img {
 
 html {
   font-size: 16px;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 }
 
 body {
-  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  margin: 50px;
 }
 
 // css reset end
-.box {
+
+
+// code start
+.product img{
+  max-width: 30%;
+}
+
+.aboutus img{
   max-width: 50%;
-  margin: 0px auto;
-  padding: 20px;
 }
 
-.box input {
-  border: 1px solid #ddd3d3;
-  padding: 10px;
-  width: 100%;
+.search_field{
+  background-color: #e0b94c;
+  input{
+    background-color: #fff;
+  }
 }
 
-.box input:focus {
-  outline: none;
+@media screen and(min-width:768px) {
+  header .carousel-inner{
+    height: 100vh;
+  }
+
+  header .carousel-caption{
+    bottom: 36%;
+  }
 }
